@@ -102,15 +102,6 @@ smartfarm-ai/
 └── README.md
 ```
 ---
-
-## 👩‍💻 Team 
-
-| Name | Role & Contribution | GitHub |
-|-----|------|--------|
-| Moneka Meghwar |Team Lead, Frontend Developer| https://github.com/mmoneka11 |
-| Kashmala Saddiqui |  Backend Developer, API Integration | https://github.com/kashmalaasif |
-| Umaima Rizwan |  Documentation Lead, Development Support| https://github.com/umaima |
-
 ---
 
 ## 🔐 Security Notes
