@@ -36,12 +36,11 @@ import os
 BACKEND_URL = "captivating-expression-production-5fe7.up.railway.app"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-SMARTFARM_LOGO = os.path.join(BASE_DIR, "assets", "smartform_logo.png")
-TEAM_LOGO = os.path.join(BASE_DIR, "assets", "team_logo.png")
+
 
 st.set_page_config(
     page_title="SmartFarm AI 👨‍🌾",
-    page_icon=SMARTFARM_LOGO, 
+    page_icon="🌱", 
     layout="centered",
     initial_sidebar_state="collapsed"
 )
@@ -74,7 +73,7 @@ else:
 # ---------------- HEADER ----------------
 c1, c2 = st.columns([1, 6])
 with c1:
-    st.image(SMARTFARM_LOGO, width=90)
+    st.markdown("<h1 style='text-align:center;'>🌱</h1>", unsafe_allow_html=True)
 with c2:
     st.markdown("""
         <h2>SmartFarm AI 👨‍🌾</h2>
@@ -167,5 +166,5 @@ f1, f2 = st.columns([6, 1])
 with f1:
     st.markdown("<p style='opacity:0.6;'>SmartFarm AI © 2026 • For Farmers 🌍</p>", unsafe_allow_html=True)
 with f2:
-    st.image(TEAM_LOGO, width=28)
-    st.caption("Develpoped by Team IGOGs")
+    st.markdown("<h1 style='text-align:center;'>🌱</h1>", unsafe_allow_html=True)
+    st.caption("Developed by Team Kashmala")
