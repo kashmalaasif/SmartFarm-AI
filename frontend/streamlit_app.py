@@ -33,7 +33,7 @@ import requests
 import os
 
 # ---------------- CONFIG ----------------
-BACKEND_URL = "http://127.0.0.1:8000"
+BACKEND_URL = "captivating-expression-production-5fe7.up.railway.app"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 SMARTFARM_LOGO = os.path.join(BASE_DIR, "assets", "smartform_logo.png")
