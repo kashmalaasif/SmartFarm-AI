@@ -148,7 +148,7 @@ with right:
                     st.markdown(f"**📊 Confidence:** {data['confidence']}")
                     st.markdown(f"**🧪 Pesticide:** {data['recommended_pesticide']}")
                     st.markdown(f"**🗣 Urdu Advice:** {data['message']}")
-                    st.audio(f"{BACKEND_URL}/{data['audio_url']}")
+                    #st.audio(f"{BACKEND_URL}/{data['audio_url']}")
                 else:
                     st.markdown(f"**🌾 Seed Type:** {data['seed_type']}")
                     st.markdown(f"**⭐ Quality:** {data['quality']}")
@@ -167,4 +167,4 @@ with f1:
     st.markdown("<p style='opacity:0.6;'>SmartFarm AI © 2026 • For Farmers 🌍</p>", unsafe_allow_html=True)
 with f2:
     st.markdown("<h1 style='text-align:center;'>🌱</h1>", unsafe_allow_html=True)
-    st.caption("Developed by Team Kashmala")
+    st.caption("Developed by Team AgriTech Innovators 🚜")

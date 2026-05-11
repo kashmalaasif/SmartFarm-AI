@@ -6,7 +6,7 @@ from app.services.image_processing import validate_image, preprocess_image
 from app.api.routes import router
 from app.api.schemas import DiseaseResponse, SeedResponse
 from app.services.gemini_client import analyze_crop_disease, analyze_seed_quality
-from app.services.voice_service import text_to_voice    
+#from app.services.voice_service import text_to_voice    
 import os
 
 load_dotenv()
@@ -30,7 +30,7 @@ app.add_middleware(
 app.include_router(router, prefix="/api")
 
 # Serve generated audio files
-app.mount("/audio", StaticFiles(directory="app/audio"), name="audio")
+#app.mount("/audio", StaticFiles(directory="app/audio"), name="audio")
 
 @app.get("/")  
 def root():

@@ -1,20 +1,20 @@
 # Google Text-to-Speech (gTTS)
 
-from gtts import gTTS
+#from gtts import gTTS
 import uuid
 import os
 
-AUDIO_DIR = "app/audio"
-os.makedirs(AUDIO_DIR, exist_ok=True)
+#AUDIO_DIR = "app/audio"
+#os.makedirs(AUDIO_DIR, exist_ok=True)
 
-def text_to_voice(text: str, lang: str = "ur") -> str:
-    filename = f"{uuid.uuid4()}.mp3"
-    filepath = os.path.join(AUDIO_DIR, filename)
+#def text_to_voice(text: str, lang: str = "ur") -> str:
+    #filename = f"{uuid.uuid4()}.mp3"
+    #filepath = os.path.join(AUDIO_DIR, filename)
 
-    tts = gTTS(text=text, lang=lang)
-    tts.save(filepath)
+    #tts = gTTS(text=text, lang=lang)
+    #tts.save(filepath)
 
-    return filepath
+    #return filepath
 
 # from google.cloud import texttospeech
 

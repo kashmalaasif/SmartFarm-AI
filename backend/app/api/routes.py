@@ -7,7 +7,7 @@ from app.services.gemini_client import (
     analyze_crop_disease,
     analyze_seed_quality
 )
-from app.services.voice_service import text_to_voice
+#from app.services.voice_service import text_to_voice
 
 router = APIRouter()
 
@@ -23,7 +23,7 @@ async def analyze_disease(
     processed = preprocess_image(image_obj)
 
     result = analyze_crop_disease(processed, country, lang)
-    result["audio_url"] = text_to_voice(result["message"], lang=lang)
+    #result["audio_url"] = text_to_voice(result["message"], lang=lang)
 
     return result
 
@@ -43,6 +43,6 @@ async def analyze_seed(
     processed = preprocess_image(image_obj)
 
     result = analyze_seed_quality(processed, seed_type, lang)
-    result["audio_url"] = text_to_voice(result["message"], lang)
+    #result["audio_url"] = text_to_voice(result["message"], lang)
 
     return result

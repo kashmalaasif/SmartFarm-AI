@@ -9,7 +9,7 @@ class DiseaseResponse(BaseModel):
     description: str
     recommended_pesticide: str
     message: str
-    audio_url: str
+    #audio_url: str
 
 class SeedResponse(BaseModel):
     seed_type: str
@@ -18,4 +18,4 @@ class SeedResponse(BaseModel):
     observations: str
     sowing_recommendation: str
     message: str
-    audio_url: str
+    #audio_url: str
