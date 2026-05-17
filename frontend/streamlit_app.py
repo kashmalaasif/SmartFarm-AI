@@ -33,7 +33,7 @@ import requests
 import os
 
 # ---------------- CONFIG ----------------
-BACKEND_URL = "https://captivating-expression-production-5fe7.up.railway.app/"
+BACKEND_URL = "https://captivating-expression-production-5fe7.up.railway.app"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
