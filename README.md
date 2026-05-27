@@ -32,11 +32,6 @@ It is designed to help farmers, researchers, and agri-tech innovators make faste
 - Sowing recommendations
 - Confidence-based assessment
 
-### 🔊 Voice Assistance
-- AI-generated guidance converted into audio
-- Hands-free and field-friendly usage
-- Supports multilingual expansion
-
 ### 🎨 Modern UI
 - Built with Streamlit
 - Light & Dark theme support
