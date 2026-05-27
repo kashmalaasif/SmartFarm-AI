@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Dotenv-Environment-yellow"/>
 </p>
 
-**SmartFarm AI** is a global, AI-powered agriculture assistant that analyzes **crop diseases** and **seed quality** from images and delivers **actionable insights with voice support** using **Gemini multimodal AI**.
+**SmartFarm AI** is a global, AI-powered agriculture assistant that analyzes **crop diseases** and **seed quality** from images using **Gemini multimodal AI**.
 
 It is designed to help farmers, researchers, and agri-tech innovators make faster and smarter decisions—anywhere in the world.
 
@@ -41,7 +41,7 @@ It is designed to help farmers, researchers, and agri-tech innovators make faste
 - Built with Streamlit
 - Light & Dark theme support
 - Clean, professional SmartFarm branding
-- Image preview and audio playback
+- Image preview 
 
 ---
 
@@ -54,7 +54,6 @@ Gemini is used to:
 - Reason about diseases and quality
 - Generate structured JSON responses
 - Produce farmer-friendly advice text
-- Enable downstream voice generation
 
 ⚠️ No heuristic or rule-based logic is used — all insights come directly from Gemini.
 
@@ -67,7 +66,6 @@ Gemini is used to:
 - FastAPI
 - Google Gemini 3 API
 - Pillow (Image Processing)
-- gTTS (Text-to-Speech)
 
 ### Frontend
 - Streamlit
@@ -90,9 +88,8 @@ smartfarm-ai/
 │       │   └── schemas.py
 │       ├── services/
 │       │   ├── gemini_client.py
-│       │   ├── image_processing.py
-│       │   └── voice_service.py
-│       └── audio/
+│       │   ├── image_processing.py 
+│    
 │   
 │
 ├── frontend/
